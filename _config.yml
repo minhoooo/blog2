@@ -53,9 +53,10 @@ baseurl: "/blog2"
 # !! You don't need to change any of the configuration flags below !!
 #
 
+# Build settings
 markdown: kramdown
-highlighter: pygments
-permalink: /:title/
+permalink: pretty
+paginate: 3
 
 # The release of Jekyll Now that you're using
 version: v1.1.0
